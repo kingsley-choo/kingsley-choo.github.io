@@ -1,13 +1,12 @@
-
+    /* background-color: rgb(52, 152, 219); */
     body {
         font-family: 'Arial', sans-serif;
-        margin: 0;
+        margin: auto;
         padding: 0;
         background-color: #f4f4f4;
     }
 
     header {
-        /* background-color: rgb(52, 152, 219); */
         color: white;
         text-align: center;
         padding: 1rem 0;
@@ -24,12 +23,9 @@
 
     img {
         margin: auto;
-        width: 20%;
-        height: 50%
-
     }
 
-    .container {
+    .outer {
         max-width: 800px;
         margin: auto;
         padding: 2rem;
@@ -94,3 +90,14 @@
         text-align: center;
         font-size: 16px;
     }
+
+    a > h2 {
+        color: grey;
+    }
+    
+
+    a.active > h2{
+        color: black;
+        font-weight: bold;
+    }
+
